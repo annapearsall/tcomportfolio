@@ -1,7 +1,13 @@
-/* beautiful styling below */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Italianno&family=Merriweather:wght@300;400&display=swap');
+
 body {
-    background: lavender;
-}    display: flex;
+    /* height: 100vh; */
+    background: white;
+    margin: 0;
+}
+
+nav {
+    display: flex;
     align-items: center;
     justify-content: space-around;
     height: 60px;
@@ -27,3 +33,48 @@ body {
 }
 
 a {
+    margin: 0px 20px;
+    text-decoration: none;
+    font-family: Merriweather, serif;
+}
+
+.navBreaks {
+    text-decoration: none;
+    font-family: Merriweather, serif;
+    color: #3c5d8b;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 145px;
+    
+}
+
+h1 {
+    font-family: Quicksand, sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    color: #3c5d8b;
+    
+}
+
+.bioP {
+    align-self: center;
+    max-width: 400px;
+    margin-left: 40px;
+}
+
+p {
+    font-family: Merriweather, serif;
+}
+
+.bioPhoto {
+    
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    
+}
