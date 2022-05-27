@@ -1,4 +1,29 @@
 /* beautiful styling below */
 body {
     background: lavender;
+}    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    top: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: fixed;
+    background: white;
+    width: 99%;
 }
+
+.logo {
+    height: 50px;
+    display: inline;
+    margin-right: 20px;
+}
+
+.name {
+    margin-right: auto;
+    font-family: Quicksand, sans-serif;
+    font-weight: 300;
+    font-size: 2.75em;
+}
+
+a {
