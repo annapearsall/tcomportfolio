@@ -138,6 +138,21 @@ hr {
     border-radius: 15px;
     color: #3c5d8b;
 }
+
+.card-design {
+    max-width: 30%;
+    height: 580px;
+    background: #ebf7f7;
+    margin: 20px;
+    padding: 17px;
+    border-radius: 15px;
+    color: #3c5d8b;
+}
+
+.thumbnail {
+    width: 350px;
+}
+
 /* footer styling */
 .footer {
     margin-bottom: 0;
