@@ -58,7 +58,6 @@ h1 {
     font-weight: 300;
     font-size: 2em;
     color: #3c5d8b;
-    
     text-align: center;
 }
 
@@ -88,6 +87,10 @@ p {
     font-family: Merriweather, serif;
 }
 
+li {
+    font-family: Merriweather, serif;
+}
+
 .bioPhoto {
     
     border-radius: 50%;
@@ -101,11 +104,12 @@ p {
 }
 
 .pdfButton {
-    width: 100px;
+    width: fit-content;
+    text-align: center;
     background: #3c5d8b;
     color: white;
     margin: auto;
-    padding: 10px;
+    padding: 13px;
     border-radius: 10px;
 }
 
@@ -117,6 +121,23 @@ hr {
     margin-top: 30px;
 }
 
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.card {
+    max-width: 30%;
+    height: 436px;
+    background: #ebf7f7;
+    margin: 20px;
+    padding: 17px;
+    border-radius: 15px;
+    color: #3c5d8b;
+}
 /* footer styling */
 .footer {
     margin-bottom: 0;
