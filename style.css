@@ -167,6 +167,40 @@ hr {
     text-align: center;
 }
 
+.back-to-top {
+    position: fixed;
+    right: 3em;
+    bottom: 3em;
+    cursor: pointer;
+    border-radius: 100%;
+    background: #ebf7f7;
+    padding: 0.5rem;
+    border: none;
+    opacity: 100%;
+    transition: opacity 1s;
+  }
+
+  .back-to-top:hover {
+    opacity: 60%;
+  }
+
+  .back-to-top-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .hidden {
+    opacity: 0;
+  }
+
+  .progress-bar {
+    height: .5rem;
+    background: #3c5d8b;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
 /* footer styling */
 .footer {
     margin-bottom: 0;
