@@ -7,7 +7,8 @@ const gotYear = dateNow.getFullYear();
 cYear.innerText = gotYear;
 
 const showOnPx = 175;
-const backToTopButton = document.querySelector(".back-to-top")
+const backToTopButton = document.querySelector(".back-to-top");
+const bioLink = document.querySelector(".bioLink");
 
 const scrollContainer = () => {
   return document.documentElement || document.body;
@@ -19,7 +20,7 @@ document.addEventListener("scroll", () => {
   } else {
     backToTopButton.classList.add("hidden")
   }
-})
+});
 
 const goToTop = () => {
     document.body.scrollIntoView({
@@ -27,9 +28,17 @@ const goToTop = () => {
     });
   };
 
-  backToTopButton.addEventListener("click", goToTop)
+  const goToBio = () => {
+    document.body.scrollIntoView({
+        behavior: 'smooth',
+    });
+  };
 
-  const pageProgressBar = document.querySelector(".progress-bar")
+  backToTopButton.addEventListener("click", goToTop);
+  
+  bioLink.addEventListener('click' , goToBio);
+
+  const pageProgressBar = document.querySelector(".progress-bar");
 document.addEventListener("scroll", () => {
   const scrolledPercentage =
       (scrollContainer().scrollTop /

@@ -36,6 +36,14 @@ a {
     margin: 0px 20px;
     text-decoration: none;
     font-family: Merriweather, serif;
+    cursor: pointer;
+}
+
+.a {
+    margin: 0px 20px;
+    text-decoration: none;
+    font-family: Merriweather, serif;
+    cursor: pointer;
 }
 
 .navBreaks {
